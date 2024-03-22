@@ -3,3 +3,17 @@
 //
 
 #include "Constante.h"
+
+#include <iostream>
+
+void Constante::afficherNC() {
+    std::cout << m_valeur;
+}
+
+void Constante::afficherNPI() {
+    std::cout << m_valeur << " ";
+}
+
+float Constante::calculer() {
+    return m_valeur;
+}

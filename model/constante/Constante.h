@@ -4,13 +4,23 @@
 
 #ifndef CONSTANTE_H
 #define CONSTANTE_H
+#include "../expression/Expression.h"
 
 
+class Constante final : public Expression {
+    float m_valeur;
 
-class Constante {
+public:
+    explicit Constante(const float m_valeur)
+        : m_valeur(m_valeur) {
+    }
 
+    ~Constante() override = default;
+
+    float calculer() override;
+    void afficherNC() override;
+    void afficherNPI() override;
 };
-
 
 
 #endif //CONSTANTE_H

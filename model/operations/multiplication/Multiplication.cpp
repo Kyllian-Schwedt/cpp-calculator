@@ -3,3 +3,23 @@
 //
 
 #include "Multiplication.h"
+
+#include <iostream>
+
+void Multiplication::afficherNC() {
+    get_ed()->afficherNC();
+    std::cout << " * ";
+    get_eg()->afficherNC();
+    std::cout << "\n";
+}
+
+void Multiplication::afficherNPI() {
+    get_ed()->afficherNPI();
+    std::cout << " ";
+    get_eg()->afficherNPI();
+    std::cout << " * ";
+}
+
+float Multiplication::calculer() {
+    return get_ed()->calculer() * get_eg()->calculer();
+}

@@ -5,10 +5,19 @@
 #ifndef MULTIPLICATION_H
 #define MULTIPLICATION_H
 
+#include "../../operation/Operation.h"
 
+class Multiplication: public Operation{
+public:
+    Multiplication(Expression *m_eg, Expression *m_ed)
+        : Operation(m_eg, m_ed) {
+    }
 
-class Multiplication {
+    ~Multiplication() override = default;
 
+    void afficherNC() override;
+    void afficherNPI() override;
+    float calculer() override;
 };
 
 
