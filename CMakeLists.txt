@@ -11,4 +11,20 @@ add_executable(Projet main.cpp
         model/operations/multiplication/Multiplication.cpp
         model/operations/multiplication/Multiplication.h
         model/operations/soustraction/Division.cpp
-        model/operations/soustraction/Division.h)
+        model/operations/soustraction/Division.h
+        model/operation/Operation.cpp
+        model/operation/Operation.h
+        model/operateur/Operateur.cpp
+        model/operateur/Operateur.h
+        model/constante/Constante.cpp
+        model/constante/Constante.h
+        model/expression/Expression.cpp
+        model/expression/Expression.h
+        model/representation/Representation.cpp
+        model/representation/Representation.h
+        model/expression/representation/Representation.cpp
+        model/expression/representation/Representation.h
+        model/expression/representation/NC/NC.cpp
+        model/expression/representation/NC/NC.h
+        model/expression/representation/NPI/NPI.cpp
+        model/expression/representation/NPI/NPI.h)
