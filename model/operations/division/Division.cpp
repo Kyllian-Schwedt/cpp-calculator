@@ -3,7 +3,6 @@
 //
 
 #include "Division.h"
-#include <math.h>
 #include <iostream>
 
 void Division::afficherNC() {
