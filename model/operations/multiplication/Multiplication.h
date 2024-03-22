@@ -5,7 +5,7 @@
 #ifndef MULTIPLICATION_H
 #define MULTIPLICATION_H
 
-#include "../../operation/Operation.h"
+#include "../Operation.h"
 
 class Multiplication: public Operation{
 public:

@@ -10,8 +10,8 @@ add_executable(Projet main.cpp
         model/operations/division/Division.h
         model/operations/multiplication/Multiplication.cpp
         model/operations/multiplication/Multiplication.h
-        model/operation/Operation.cpp
-        model/operation/Operation.h
+        model/operations/Operation.cpp
+        model/operations/Operation.h
         model/constante/Constante.cpp
         model/constante/Constante.h
         model/expression/Expression.cpp

@@ -6,7 +6,7 @@
 #define ADDITION_H
 
 
-#include "../../operation/Operation.h"
+#include "../Operation.h"
 
 class Addition final : public Operation{
 public:

@@ -5,7 +5,7 @@
 #ifndef DIVISION_H
 #define DIVISION_H
 
-#include "../../operation/Operation.h"
+#include "../Operation.h"
 
 class Division: public Operation{
 public:

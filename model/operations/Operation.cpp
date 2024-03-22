@@ -2,7 +2,7 @@
 // Created by mathias.mourgues on 22/03/2024.
 //
 
-#include "Operation.h"
+#include "../operation/Operation.h"
 
 Expression * Operation::get_eg() const {
     return m_eg;
